@@ -1,0 +1,35 @@
+body {
+  font-family: 100% Raleway, sans-serif;
+  color: #222222;
+  letter-spacing: 1.25px;
+  font-size: 1.25rem; }
+
+logo-font {
+  font-family: Quentin;
+  font-size: 2rem; }
+
+a {
+  text-transform: uppercase;
+  color: #222222;
+  font-family: Raleway, sans-serif;
+  font-size: 24px;
+  letter-spacing: 5px; }
+
+nav li a:hover, a.custom-nav-color {
+  color: #B693A5;
+  text-decoration: none; }
+
+.text-custom {
+  font-weight: 800;
+  font-size: 4rem;
+  letter-spacing: 1px;
+  line-height: 60px; }
+
+.margin-custom {
+  margin-top: 8rem; }
+
+@media (max-width: 991px) {
+  .margin-custom {
+    margin-top: 10px; } }
+
+/*# sourceMappingURL=main.css.map */

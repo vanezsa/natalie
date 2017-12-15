@@ -1,0 +1,47 @@
+$font-stack: Raleway, sans-serif;
+$primary-color: #222222;
+$link-color: #B693A5;
+
+body {
+    font-family: 100% $font-stack;
+    color: $primary-color;
+    letter-spacing: 1.25px;
+    font-size: 1.25rem;
+}
+
+logo-font {
+    font-family: Quentin;
+    font-size: 2rem;
+}
+
+a {
+  text-transform: uppercase;
+  color: #222222;
+  font-family: $font-stack;
+  font-size: 24px;
+  letter-spacing: 5px;
+}
+
+nav li a:hover, a.custom-nav-color {
+      color: $link-color;
+      text-decoration: none;
+} 
+
+.text-custom {
+    font-weight: 800;
+    font-size: 4rem;
+    letter-spacing: 1px;
+    line-height: 60px;
+}
+
+.margin-custom {
+    margin-top: 8rem;
+}
+
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991px) { 
+    .margin-custom {margin-top: 10px;}
+    }
+
+

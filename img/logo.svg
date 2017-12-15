@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="profile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-550.000000, -39.000000)">
+        <g id="nav" transform="translate(130.000000, 39.000000)">
+            <g id="logo" transform="translate(420.000000, 0.000000)">
+                <rect id="Rectangle-2" fill="#B693A5" transform="translate(50.000000, 50.000000) rotate(-315.000000) translate(-50.000000, -50.000000) " x="15" y="15" width="70" height="70"></rect>
+                <text id="N" font-family="Quentin" font-size="24" font-weight="normal" letter-spacing="1.79999995" fill="#FFFFFF">
+                    <tspan x="40.5" y="39">N</tspan>
+                </text>
+                <polygon id="Line" fill="#FFFFFF" fill-rule="nonzero" points="23 51 23 50 78 50 78 51"></polygon>
+                <text id="S" font-family="Quentin" font-size="24" font-weight="normal" letter-spacing="1.79999995" fill="#FFFFFF">
+                    <tspan x="42" y="77">S</tspan>
+                </text>
+                <text id="N-Copy" font-family="Quentin" font-size="24" font-weight="normal" letter-spacing="1.79999995" fill="#FFFFFF">
+                    <tspan x="40.5" y="39">N</tspan>
+                </text>
+                <text id="S-Copy" font-family="Quentin" font-size="24" font-weight="normal" letter-spacing="1.79999995" fill="#FFFFFF">
+                    <tspan x="42" y="77">S</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
