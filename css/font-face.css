@@ -1,9 +1,9 @@
 @font-face {
     font-family: Quentin;
-    src: url("../Quentin.otf") format("opentype");
+    src: url("../font/Quentin.woff") format("woff");
 }
 
 @font-face {
     font-family: Quentin;
     font-weight: regular;
-    src: url("../Quentin.otf") format("opentype");
+    src: url("../font/Quentin.woff") format("woff");

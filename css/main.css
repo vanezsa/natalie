@@ -1,4 +1,4 @@
-body {
+body, input, textarea {
   font-family: 100% Raleway, sans-serif;
   color: #222222;
   letter-spacing: 1.25px;
@@ -8,14 +8,20 @@ logo-font {
   font-family: Quentin;
   font-size: 2rem; }
 
-a {
+nav li a {
   text-transform: uppercase;
   color: #222222;
   font-family: Raleway, sans-serif;
   font-size: 24px;
   letter-spacing: 5px; }
+nav li a:hover, nav li a.custom-text-color {
+  color: #B693A5;
+  text-decoration: none;
+  font-weight: 400; }
+nav li a.custom-text-color {
+  font-weight: 600; }
 
-nav li a:hover, a.custom-nav-color {
+a, a:hover, nav li a.custom-text-color {
   color: #B693A5;
   text-decoration: none; }
 
@@ -27,6 +33,46 @@ nav li a:hover, a.custom-nav-color {
 
 .margin-custom {
   margin-top: 8rem; }
+
+.form-control-lg {
+  border-radius: 0rem;
+  border-color: #979797; }
+
+.img-fluid {
+  width: 100%;
+  height: auto; }
+
+button.btn-lg {
+  border-radius: 0rem; }
+
+.btn.btn-secondary {
+  background-color: #B693A5;
+  border-color: #B693A5; }
+
+.btn.btn-secondary:hover,
+.btn.btn-secondary:focus,
+.btn.btn-secondary:active,
+.btn.btn-secondary.active {
+  background-color: #B693A5;
+  border-color: #B693A5;
+  opacity: 0.9; }
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #222222;
+  font-family: Raleway, sans-serif;
+  letter-spacing: 1.25px; }
+
+input:-moz-placeholder, textarea:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #222222;
+  font-family: Raleway, sans-serif;
+  letter-spacing: 1.25px; }
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #222222;
+  font-family: Raleway, sans-serif;
+  letter-spacing: 1.25px; }
 
 @media (max-width: 991px) {
   .margin-custom {

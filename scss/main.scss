@@ -2,7 +2,7 @@ $font-stack: Raleway, sans-serif;
 $primary-color: #222222;
 $link-color: #B693A5;
 
-body {
+body, input, textarea {
     font-family: 100% $font-stack;
     color: $primary-color;
     letter-spacing: 1.25px;
@@ -14,19 +14,29 @@ logo-font {
     font-size: 2rem;
 }
 
-a {
-  text-transform: uppercase;
-  color: #222222;
-  font-family: $font-stack;
-  font-size: 24px;
-  letter-spacing: 5px;
-}
-
-nav li a:hover, a.custom-nav-color {
+nav li {
+    a {
+      text-transform: uppercase;
+      color: $primary-color;
+      font-family: $font-stack;
+      font-size: 24px;
+      letter-spacing: 5px;
+    }
+    a:hover {
       color: $link-color;
       text-decoration: none;
-} 
+      font-weight: 400;
+    }
+    a.custom-text-color {
+        @extend a:hover;
+        font-weight: 600;
+    }
+}
 
+a, a:hover {
+    color: $link-color;
+    text-decoration: none;
+}
 .text-custom {
     font-weight: 800;
     font-size: 4rem;
@@ -38,6 +48,43 @@ nav li a:hover, a.custom-nav-color {
     margin-top: 8rem;
 }
 
+.form-control-lg {
+    border-radius: 0rem;
+    border-color: #979797;
+}
+
+ .img-fluid { width: 100%; height: auto; } 
+
+button.btn-lg {border-radius: 0rem;}
+.btn.btn-secondary {
+    background-color: $link-color;
+    border-color: $link-color;
+}
+.btn.btn-secondary:hover,
+.btn.btn-secondary:focus,
+.btn.btn-secondary:active,
+.btn.btn-secondary.active {
+  background-color: $link-color;
+  border-color: $link-color;
+  opacity: 0.9;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: $primary-color;
+  font-family: $font-stack;
+  letter-spacing: 1.25px;
+}
+input:-moz-placeholder, textarea:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: $primary-color;
+  font-family: $font-stack;
+  letter-spacing: 1.25px;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: $primary-color;
+  font-family: $font-stack;
+  letter-spacing: 1.25px;
+}
 
 // Medium devices (tablets, less than 992px)
 @media (max-width: 991px) { 

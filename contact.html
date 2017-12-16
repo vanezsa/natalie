@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="css/main.css">
     
     <!-- Fonts -->
-    <link rel="stylesheet" href="css/font-face.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,800" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-face.css">
     
   </head>
   <body>
@@ -53,23 +53,39 @@
 </svg></a>
    </li>
   <li class="nav-item">
-  <a class="nav-link" href="contact.html">Contact</a>
+  <a class="nav-link custom-text-color" href="contact.html">Contact</a>
    </li>
   </ul>
 </nav>
 
 <!-- Body -->
- <div class="container">
+ <div class="container margin-custom">
      <div class="row">
          <div class="col-sm-12 col-md-6">
-             <img src="img/profile-bg.png" class="img-fluid" alt="Natalie Smith profile">
+                 <p class="text-custom lead">Get in touch</p><br>
+                 <p class="lead">This kid is available for freelance projects and <br>full-time employment.</p><br>
+                 <p class="lead"><a href="mailto:someone@example.com?Subject=Hello" target="_top"><u>hello@nataliesmith.com</u></a></p>
+                 <p class="lead">+49 123 12345678</p><br>
+                 <ul class="list-inline">
+                     <li class="list-inline-item"><a href=""><img src="img/Facebook.svg" alt="facebook-icon"></a></li>
+                     <li class="list-inline-item"><a href=""><img src="img/Twitter.svg" alt="twitter-icon"></a></li>
+                     <li class="list-inline-item"><a href=""><img src="img/Instagram.svg" alt="instgram-icon"></a></li>
+                     <li class="list-inline-item"><a href=""><img src="img/LinkedIN.svg" alt="linkedin-icon"></a></li>
+                     <li class="list-inline-item"><a href=""><img src="img/Behance.svg" alt="behance-icon"></a></li>
+                     <li class="list-inline-item"><a href=""><img src="img/Dribbble.svg" alt="dribble-icon"></a></li>
+                 </ul>
          </div>
          <div class="col-sm-12 col-md-6">
-             <div class="margin-custom">
-                 <p class="lead">Hi! my name is <br> <span class="text-custom">Natalie Smith</span><br> I am a UX Designer and Art Director based in London. <br><br> About yourself here… <br>
-                 Lorem ipsum dolor sit amet, id doming adipiscing mea, tollit aeterno persecuti te mel. An pro eros option salutatus. Intellegam honestatis in est, usu ne alii percipit apeirian, ut iusto fabulas qui. Sea an sale novum. Vidisse corpora eum in, at choro aperiam aliquando eos.</p>
+             <div class="form-group">
+                 <input class="form-control form-control-lg" type="text" placeholder="Name">
              </div>
-             
+             <div class="form-group">
+                 <input class="form-control form-control-lg" type="text" placeholder="Email Address">
+             </div>
+             <div class="form-group">
+                 <textarea class="form-control form-control-lg" rows="5" placeholder="Message"></textarea>
+             </div>
+             <button type="button" class="btn btn-secondary btn-lg btn-block">Send Message</button>
          </div>
      </div>
  </div>
