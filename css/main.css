@@ -34,6 +34,9 @@ a, a:hover, nav li a.custom-text-color {
 .margin-custom {
   margin-top: 8rem; }
 
+.margin-custom-1 {
+  margin-top: 6rem; }
+
 .form-control-lg {
   border-radius: 0rem;
   border-color: #979797; }
