@@ -44,13 +44,12 @@ a, a:hover {
     line-height: 60px;
 }
 
-.margin-custom {
-    margin-top: 8rem;
-}
+.margin-custom { margin-top: 8rem; }
 
-.margin-custom-1 {
-    margin-top: 6rem;
-}
+.margin-custom-1 { margin-top: 6rem; }
+
+.mt-5 { margin-top: 1.55rem !important; }
+
 .form-control-lg {
     border-radius: 0rem;
     border-color: #979797;
@@ -89,9 +88,16 @@ input::-moz-placeholder, textarea::-moz-placeholder { /* Mozilla Firefox 19+ */
   letter-spacing: 1.25px;
 }
 
+
 // Medium devices (tablets, less than 992px)
 @media (max-width: 991px) { 
-    .margin-custom {margin-top: 10px;}
+    .margin-custom {margin-top: 1.5rem;}
+    .margin-custom-1 {margin-top: 2.5rem;}
     }
 
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767px) {
+    .mt-2 {margin-top: 0rem !important;}
+    .mt-5 {margin-top: 1rem !important;}
+}
 

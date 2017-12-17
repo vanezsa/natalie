@@ -37,6 +37,9 @@ a, a:hover, nav li a.custom-text-color {
 .margin-custom-1 {
   margin-top: 6rem; }
 
+.mt-5 {
+  margin-top: 1.55rem !important; }
+
 .form-control-lg {
   border-radius: 0rem;
   border-color: #979797; }
@@ -79,6 +82,15 @@ input::-moz-placeholder, textarea::-moz-placeholder {
 
 @media (max-width: 991px) {
   .margin-custom {
-    margin-top: 10px; } }
+    margin-top: 1.5rem; }
+
+  .margin-custom-1 {
+    margin-top: 2.5rem; } }
+@media (max-width: 767px) {
+  .mt-2 {
+    margin-top: 0rem !important; }
+
+  .mt-5 {
+    margin-top: 1rem !important; } }
 
 /*# sourceMappingURL=main.css.map */
